@@ -1,0 +1,501 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap');
+
+body {
+    background: rgb(69,53,84) !important;
+    background: linear-gradient(180deg, rgb(84, 53, 82) 0%, rgba(193,119,204,1) 25%, rgba(128,234,255,1) 50%, rgba(193,119,204,1) 74%, rgba(69,53,84,1) 100%) !important;
+}
+
+header {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+/* ----- Botones de edición ----- */
+
+.icon-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
+.icon-container i {
+    color: #ffffff;
+    display: flex;
+    left: 30px;
+  }
+
+div.editar-datos {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+
+/* ----- Navegador ----- */
+.navbar {
+    background-color: #111111;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.navbar a {
+    color: #ffffff !important;
+    font-family: 'Raleway';
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.nav-link:hover {
+    color: rgb(223, 108, 179) !important;
+}
+
+/* ----- Banner y foto de perfil ----- */
+.banner {
+    background-image: url(../src/assets/img/banner.jpg);
+    background-repeat: no-repeat;
+    height: 200px;
+    position: relative;
+}
+
+.banner .profile-image {
+    position: absolute;
+    bottom: 0;
+    right: 35px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    transform: translateY(50%);
+  }
+.banner .profile-image img {
+    width: 100%;
+}
+
+/* ----- Mis datos ----- */
+.nombre-ocupacion {
+    background-color: #111111;
+    padding: 20px 0px 30px 30px;
+}
+
+.fab {
+    margin-top: 15px;
+    margin-right: 15px;
+    color: #ffffff;
+}
+
+.fab:hover {
+    color:rgb(223, 108, 179);
+}
+
+.mi-nombre-degrade {
+    font-family: 'Raleway';
+    padding-top: 10px;
+    background: -webkit-linear-gradient(left,#72ecf7, rgb(151, 62, 151), #af81ab, #deaed9, #deaed9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.ocupacion {
+    font-weight: 600;
+    font-size: 25px;
+    letter-spacing: 1.3px;
+}
+
+.ocupacion,.lugar {
+    font-family: 'Raleway';
+    color: #ffffff;
+}
+
+/* ----- Sobre mi ----- */
+.titulo-degrade {
+    font-family: 'Raleway';
+    padding-top: 20px;
+    padding-left: 30px;
+    background: -webkit-linear-gradient(left,#72ecf7, rgb(138, 25, 138), #deaed9, #deaed9, #deaed9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.sobre-mi {
+    background-color: #111111;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.parrafo-sobre_mi {
+    font-family: 'Raleway';
+    font-size: 18px;
+    color: #ffffff;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+
+/* ----- Hobbies ----- */
+
+.hobby-icon {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #ffffff;
+    text-align: center;
+  }
+
+.hobby-title {
+    font-family: 'Raleway';
+    color: #bfbfbf;
+    font-size: 15px;
+    text-align: center;
+  }
+
+.container-hobbies {
+    background-color: #111111;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+.iconos-hobbies {
+    align-items: center;
+    margin: 30px;
+  }
+
+.row-icon {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+div.cont-h {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+
+/* ----- Educación ----- */
+ul {
+    display: flex;
+    flex-direction: column;
+}
+
+li.curso-li {
+    display: flex;
+    flex-direction: column;
+}
+
+.curso-li {
+    margin-left: 15px;
+}
+
+.educacion {
+    background-color: #111111;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.foto-curso {
+    width: 250px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+div.col-md-4.align-items-center {
+    text-align: center;
+}
+
+div.col-lg-12 {
+    text-align: center;
+}
+
+div.container-educacion {
+    display: flex;
+    justify-content: space-around;
+}
+
+.curso-nombre {
+    font-family: 'Raleway';
+    color: #ffffff;
+    letter-spacing: 1.3px;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.curso-fecha {
+    font-family: 'Raleway';
+    color: #bfbfbf;
+    font-size: 12px;
+}
+
+.curso-descripcion {
+    font-family: 'Raleway';
+    color: #ffffff;
+    font-size: 16px;
+}
+
+/* ----- Hard Skills ----- */
+
+.row {
+    margin-left: 15px !important;
+    margin-right: 15px !important;
+}
+
+div.col-4 {
+    display: inline-flex;
+    justify-content: space-between;
+    justify-content: center;
+}
+
+circle-progress {
+    padding: 20px;
+}
+
+.skills-container {
+    background-color: #111111;
+    padding-bottom: 35px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+.skill-section {
+    padding-bottom: 25px;
+  }
+
+.fas {
+    color: #ffffff;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+/* ----- Soft Skills ----- */
+.container-soft {
+    background-color: #111111;
+    border-radius: 5px;
+}
+
+.skill-icon {
+    font-size: 40px;
+    color: #6fb0d8;
+    text-align: center;
+  }
+  
+.skill-title {
+    text-align: center;
+    font-family: 'Raleway';
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+  }
+
+.soft {
+    display: flex;
+    flex-direction: column;
+}
+  
+.soft-skills {
+    text-align: center;
+    margin-top: 10px;
+  }
+/* ----- Proyectos ----- */
+.container-proyectos {
+    background-color: #111111;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.row-proy {
+    padding: 0px 55px 25px 55px;
+}
+
+.proyecto {
+    margin-top: 20px !important;
+    margin-bottom: 20px
+}
+
+.img-fluid {
+    border-radius: 10px;
+}
+
+.mt-3 {
+    font-family: 'Raleway';
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 1.3px;
+}
+
+.mt-4 {
+    font-family: 'Raleway';
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.tecnologias {
+    font-family: 'Raleway';
+    color: #e6e6e6;
+    font-size: 12px;
+}
+
+/* CONTACTO */
+
+.container-contacto {
+    background-color: #111111;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding-bottom: 35px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.btn-primary {
+    background-color: #5a80c1;
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.container-footer {
+    background-color: #111111;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.footer-text {
+    align-items: center;
+    color: #ffffff;
+    font-family: 'Raleway';
+    font-size: 16px;
+}
+
+/*------- RESPONSIVE -------*/
+@media only screen and (max-width: 769px) {
+    
+.banner {
+    height: 150px;
+    }
+
+.navbar-toggler-icon {
+    background-color: #949494;
+    border-radius: 5px;
+}
+
+li.nav-item {
+    margin-left: 20px;
+}
+
+.navbar-toggler {
+    margin-right: 20px;
+}
+
+.nombre-ocupacion {
+    padding-top: 60px;
+}
+
+.row-proy {
+    padding: 0px 0px 35px;
+}
+
+.col-4 {
+    width: -webkit-fill-available !important;
+}
+
+li.curso-li {
+    display: contents;
+}
+
+div.cont-h {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.curso-nombre {
+    text-align: center;
+}
+
+.curso-fecha {
+    text-align: center;
+}
+
+.curso-descripcion {
+    text-align: center;
+}
+
+form {
+    margin: 20px;
+}
+
+.footer-text {
+    font-size: 14px;
+}
+
+ul {
+    align-items: center;
+}
+
+.ocultar-col {
+    display: contents;
+}
+
+}
+
+@media only screen and (min-width: 768px) {
+    .navbar-toggler-icon {
+        background-color: #949494;
+        border-radius: 5px;
+    }
+    
+    .navbar-toggler {
+        margin-right: 20px;
+    }
+
+    .foto-curso {
+        width: 200px;
+    }
+
+    ul {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    li {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .ocultar-col {
+        display: contents;
+    }
+}

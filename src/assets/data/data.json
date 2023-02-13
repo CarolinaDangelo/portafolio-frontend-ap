@@ -1,0 +1,130 @@
+{   
+    "fotoPerfil": "../assets/img/carolinadangelo.jpg",
+    "name": "Carolina D'Angelo",
+    "ocupation": "Desarrolladora web Full Stack",
+    "ubication": "Rosario, Argentina",
+    "sobreMi": "Hola y bienvenido/a a mi portafolio! Soy una apasionada por el arte en todos los sentidos, amo el dibujo, la pintura y el diseño gráfico. Me considero una persona muy creativa y curiosa, siempre estoy aprendiendo algo nuevo. Llegué a interesarme por la programación luego de estar 2 años aventurandome en el marketing digital, aprendiendo habilidades tecnológicas volcadas al crecimiento en línea. Descubrí que la programación es una actividad que disfruto y me motiva a seguir aprendiendo.",
+    
+    "education": [{
+        "imgInstitution": "../assets/img/argentinaprograma.png",
+        "nameInstitution": "Argentina Programa",
+        "dateSchool": "Mayo 2023",
+        "descriptionSchool": "Gestión de tiempo || Metodología SCRUM || Git y GitHub || HTML y CSS || Bootstrap || JavaScript || NodeJS || TypeScript || Angular || Bases de datos || MySQL || POO || Java || Spring Boot API ||"
+    },
+    {
+        "imgInstitution": "../assets/img/aluraone.png",
+        "nameInstitution": "Alura ONE",
+        "dateSchool": "Febrero 2023",
+        "descriptionSchool": "Productividad y enfoque || Hábitos para ser productivo || Lógica de Programación || HTML5 y CSS3 || Diseño responsivo || Git y Github || JavaScript || Java || MySQL || Gestión ágil ||"
+    },
+    {
+        "imgInstitution": "../assets/img/freecodecamp.png",
+        "nameInstitution": "FreeCodeCamp",
+        "dateSchool": "Julio 2022",
+        "descriptionSchool": "HTML || CSS || JavaScript || Diseño responsive ||"
+    }],
+    
+    "hardSkills": [{
+        "nameSkill": "HTML5",
+        "progress": "90%",
+        "width": "'width: 90%'"
+    },
+    {
+        "nameSkill": "CSS3",
+        "progress": "80%"
+    },
+    {
+        "nameSkill": "JavaScript",
+        "progress": "55%"
+    },
+    {
+        "nameSkill": "BootStrap",
+        "progress": "60%"
+    },
+    {
+        "nameSkill": "GIT",
+        "progress": "70%"
+    },
+    {
+        "nameSkill": "TypeScript",
+        "progress": "50%"
+    },
+    {
+        "nameSkill": "Angular",
+        "progress": "50%"
+    },
+    {
+        "nameSkill": "JAVA",
+        "progress": "40%"
+    },
+    {
+        "nameSkill": "MySQL",
+        "progress": "45%"
+    },
+    {
+        "nameSkill": "PHP",
+        "progress": "30%"
+    },
+    {
+        "nameSkill": "SpringBoot",
+        "progress": "35%"
+    },
+    {
+        "nameSkill": "Wordpress/Elementor",
+        "progress": "85%"
+    },
+    {
+        "nameSkill": "Photoshop",
+        "progress": "80%"
+    },
+    {
+        "nameSkill": "PaintToolSAI",
+        "progress": "85%"
+    },
+    {
+        "nameSkill": "Filmora9",
+        "progress": "70%"
+    }],
+    
+    "proyectos": [{
+        "imgProyecto": "http",
+        "nameProyecto": "Encriptador de Texto",
+        "description": "Este encriptador fue un desafío de Alura Latam, el objetivo era crear una aplicación que encripte textos, con el fin de intercambiar mensajes secretos con otras personas, también se puede desencriptar los mensajes.",
+        "tecnologias": "HTML | CSS | JS",
+        "verRepositorio": "https://github.com/CarolinaDangelo/Encriptador-desencriptador",
+        "verDemo": "https://carolinadangelo.github.io/Encriptador-desencriptador/"
+    },
+    {
+        "imgProyecto": "http",
+        "nameProyecto": "Juego del Ahorcado",
+        "description": "El clásico juego del ahorcado fue el segundo desafío de Alura Latam, el objetivo es elegir las letras correctas para formar la palabra oculta. Este juego contiene nombres de animales y el de un ser extraño.",
+        "tecnologias": "HTML | CSS | JS",
+        "verRepositorio": "https://github.com/CarolinaDangelo/juegodelahorcado",
+        "verDemo": "https://carolinadangelo.github.io/juegodelahorcado/"
+    },
+    {
+        "imgProyecto": "http",
+        "nameProyecto": "AluraGeek E-commerce",
+        "description": "Esta es una tienda virtual de productos para gamers y fanáticos de algunos personajes. Fue otro desafío de Alura Latam en el cual debíamos practicar todo lo aprendido hasta el momento.",
+        "tecnologias": "HTML | CSS | JS",
+        "verRepositorio": "https://github.com/CarolinaDangelo/AluraGeek",
+        "verDemo": "https://carolinadangelo.github.io/AluraGeek/"
+    },
+    {
+        "imgProyecto": "http",
+        "nameProyecto": "Portafolio",
+        "description": "Este portafolio es el proyecto final a presentar en 'Argentina Programa', un curso de programación Full Stack brindado por el estado. Fuimos incorporando distintas tecnologías hasta lograr este resultado.",
+        "tecnologias": "HTML | CSS | JS | ANGULAR | JAVA",
+        "verRepositorio": "#",
+        "verDemo": "#"
+    }],
+    
+    "achivements": [{
+        "name": "Huaro App"
+    },
+    {
+        "name": "Lanterns 19/09"
+    }
+    ]
+    
+    }

@@ -1,0 +1,86 @@
+<!-- Hobbies -->
+<section class="container-hobbies" id="hobbies">
+    <h2 class="titulo-degrade">Hobbies</h2>
+      <div class="iconos-hobbies">
+        <div class="row row-icon">
+          <div class="cont-h col-md-1">
+            <i class="hobby-icon fas fa-pencil-alt"></i>
+            <div class="hobby-title">Dibujo</div>
+          </div>
+          <div class="cont-h col-md-1">
+            <i class="hobby-icon fas fa-paint-brush"></i>
+            <div class="hobby-title">Pintura</div>
+          </div>
+          <div class="cont-h col-md-1">
+            <i class="hobby-icon fas fa-music"></i>
+            <div class="hobby-title">Música</div>
+          </div>
+          <div class="cont-h col-md-1">
+            <i class="hobby-icon fas fa-gamepad"></i>
+            <div class="hobby-title">Juegos</div>
+          </div>
+          <div class="cont-h col-md-1">
+            <i class="hobby-icon fas fa-star"></i>
+            <div class="hobby-title">Astrología</div>
+          </div>
+          <div class="cont-h col-md-1">
+            <i class="hobby-icon fas fa-heart"></i>
+            <div class="hobby-title">Tarot</div>
+          </div>
+          <div class="cont-h col-md-1">
+            <i class="hobby-icon fas fa-dumbbell"></i>
+            <div class="hobby-title">Ejercicio</div>
+          </div>
+        </div>
+      </div>
+</section>
+  
+<!-- Educación -->
+<section class="educacion" id="educacion">
+  <div class="editar-datos">
+  <h2 class="titulo-degrade">Educación</h2>
+  <!-- ICONO de EDICIÓN -->
+  <i class="edicion fas fa-pencil-alt fa-lg mr-3"></i>
+  <i class="eliminacion fas fa-times fa-lg"></i>
+  </div>
+
+  <div class="container-educacion">
+    <div class="col-lg-1 ocultar-col"></div>
+      <div class="row row-edu col-lg-11">
+        <ul class="cursos" *ngFor="let education of educationList">
+            <img [src]="education.imgInstitution" class="foto-curso" alt="Argentina Programa">
+            <li class="curso-li">
+              <h3 class="curso-nombre">{{education.nameInstitution}}</h3>
+              <p class="curso-fecha">{{education.dateSchool}}</p>
+              <p class="curso-descripcion">
+                {{education.descriptionSchool}}
+              </p>
+            </li>
+        </ul>
+
+    <!--  
+        <ul class="cursos">
+          <img src="../assets/img/aluraone.png" class="foto-curso" alt="Argentina Programa">
+          <li class="curso-li">
+            <h3 class="curso-nombre">Alura ONE Education</h3>
+            <p class="curso-fecha">Febrero 2023</p>
+            <p class="curso-descripcion">
+              Productividad y enfoque || Hábitos para ser productivo || Lógica de Programación || HTML5 y CSS3 || Diseño responsivo || Git y Github || JavaScript || Java || MySQL || Gestión ágil ||
+            </p>
+          </li>
+        </ul>
+
+        <ul class="cursos">
+          <img src="../assets/img/freecodecamp.png" class="foto-curso" alt="Argentina Programa">
+          <li class="curso-li">
+            <h3 class="curso-nombre">FreeCodeCamp</h3>
+            <p class="curso-fecha">Julio 2022</p>
+            <p class="curso-descripcion">
+              HTML || CSS || JavaScript || Diseño responsive ||
+            </p>
+          </li> 
+        </ul>-->
+      </div>
+    </div>
+</section>
+

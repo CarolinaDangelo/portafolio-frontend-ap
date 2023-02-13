@@ -1,0 +1,93 @@
+<!-- Menú de navegación -->
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="#">
+        <img src="../assets/img/logo.png" width="100" height="30" alt="Logo" />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+      <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#sobre-mi">Sobre mi</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#hobbies">Hobbies</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#educacion">Educación</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#proyectos">Proyectos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacto">Contacto</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="form-inline my-2 my-lg-0">
+        <a href="login.html"><button class="btn btn-outline-light my-2 my-sm-0" type="submit">
+          Login
+        </button></a>
+      </div>
+    </nav>
+
+<!-- Banner de presentación -->
+  <section>
+      <div class="container text-center"></div>
+<!-- Imágen de perfil -->
+      <div class="banner">
+        <div class="profile-image">
+            <img [src]="miPortafolio.fotoPerfil" alt="Perfil">
+        <!-- ICONO de EDICIÓN -->
+        <div class="icon-container d-flex">
+          <i class="edicion fas fa-pencil-alt fa-lg mr-3"></i>
+          <i class="eliminacion fas fa-times fa-lg"></i>
+        </div>
+        </div>
+      </div>
+<!-- Nombre y ocupación -->
+<section>
+    <div class="nombre-ocupacion">
+        <div class="editar-datos">
+        <h1 class="mi-nombre-degrade d-flex">{{miPortafolio.name}}</h1>
+        <!-- ICONO de EDICIÓN -->
+          <i class="edicion fas fa-pencil-alt fa-lg mr-3"></i>
+          <i class="eliminacion fas fa-times fa-lg"></i>
+        </div>
+        <h3 class="ocupacion">{{miPortafolio.ocupation}}</h3>
+        <h6 class="lugar">{{miPortafolio.ubication}}</h6>
+    
+<!-- Linea de Iconos de Redes Sociales -->
+        <div class="iconos">
+            <a href="https://www.linkedin.com/in/carolina-d-angelo/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+            <a href="https://www.instagram.com/caroladangelo_/" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+            <a href="https://github.com/CarolinaDangelo" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+        </div>
+    </div>
+</section>
+<!-- Sobre mí -->
+    <div class="sobre-mi" id="sobre-mi">
+          <div class="editar-datos">
+        <h2 class="titulo-degrade">Sobre mí</h2>
+            <!-- ICONO de EDICIÓN -->
+            <i class="edicion fas fa-pencil-alt fa-lg mr-3"></i>
+            <i class="eliminacion fas fa-times fa-lg"></i>
+          </div>
+        <p class="parrafo-sobre_mi">{{miPortafolio.sobreMi}}</p>
+    </div>
+</section>
+</header>
