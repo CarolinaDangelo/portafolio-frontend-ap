@@ -11,6 +11,7 @@ import { ContactoComponent } from './components/contacto/contacto.component';
 import { PortfolioService } from './servicios/portfolio.service';
 import { HttpClientModule } from '@angular/common/http';
 import { NgCircleProgressModule } from 'ng-circle-progress';
+import { ExperienciaComponent } from './components/experiencia/experiencia.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { NgCircleProgressModule } from 'ng-circle-progress';
     HobbiesYEducacionComponent,
     SkillsComponent,
     ProyectosComponent,
-    ContactoComponent
+    ContactoComponent,
+    ExperienciaComponent
   ],
   imports: [
     BrowserModule,
