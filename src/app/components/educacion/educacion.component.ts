@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { PortfolioService } from 'src/app/servicios/portfolio.service';
 
 @Component({
-  selector: 'app-hobbies-y-educacion',
-  templateUrl: './hobbies-y-educacion.component.html',
-  styleUrls: ['./hobbies-y-educacion.component.css']
+  selector: 'app-educacion',
+  templateUrl: './educacion.component.html',
+  styleUrls: ['./educacion.component.css']
 })
-export class HobbiesYEducacionComponent implements OnInit {
+export class EducacionComponent implements OnInit {
   educationList:any;
   constructor(private datosPortfolio:PortfolioService) { }
 

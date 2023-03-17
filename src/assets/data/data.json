@@ -1,26 +1,39 @@
 {   
-    "fotoPerfil": "../assets/img/carolinadangelo.jpg",
+    "fotoPerfil": "../assets/img/dangelocarolina.jpg",
     "name": "Carolina D'Angelo",
     "ocupation": "Desarrolladora web Full Stack",
     "ubication": "Rosario, Argentina",
     "sobreMi": "Hola y bienvenido/a a mi portafolio! Soy una apasionada por el arte en todos los sentidos, amo el dibujo, la pintura y el diseño gráfico. Me considero una persona muy creativa y curiosa, siempre estoy aprendiendo algo nuevo. Llegué a interesarme por la programación luego de estar 2 años aventurandome en el marketing digital, aprendiendo habilidades tecnológicas volcadas al crecimiento en línea. Descubrí que la programación es una actividad que disfruto y me motiva a seguir aprendiendo.",
     
+    "experiencia": [{
+        "imgCompany": "../assets/img/RumboMistico.jpg",
+        "nameCompany": "Rumbo Místico (www.rumbomistico.com)",
+        "dateJob": "Enero 2021 a la fecha",
+        "descriptionJob": "Marketing digital | Community Manager | Diseño gráfico | Redacción de artículos | Optimización para motores de búsqueda (SEO)"
+    }],
+    
     "education": [{
+        "imgInstitution": "../assets/img/codoacodo.jpg",
+        "nameInstitution": "Codo a codo 4.0",
+        "dateSchool": "Marzo 2023 a Julio 2023",
+        "descriptionSchool": "Diseño UX-UI"
+    },
+    {
         "imgInstitution": "../assets/img/argentinaprograma.png",
         "nameInstitution": "Argentina Programa",
-        "dateSchool": "Mayo 2023",
+        "dateSchool": "Octubre 2022 a Mayo 2023",
         "descriptionSchool": "Gestión de tiempo || Metodología SCRUM || Git y GitHub || HTML y CSS || Bootstrap || JavaScript || NodeJS || TypeScript || Angular || Bases de datos || MySQL || POO || Java || Spring Boot API ||"
     },
     {
         "imgInstitution": "../assets/img/aluraone.png",
         "nameInstitution": "Alura ONE",
-        "dateSchool": "Febrero 2023",
+        "dateSchool": "Julio 2022 a Febrero 2023",
         "descriptionSchool": "Productividad y enfoque || Hábitos para ser productivo || Lógica de Programación || HTML5 y CSS3 || Diseño responsivo || Git y Github || JavaScript || Java || MySQL || Gestión ágil ||"
     },
     {
         "imgInstitution": "../assets/img/freecodecamp.png",
         "nameInstitution": "FreeCodeCamp",
-        "dateSchool": "Julio 2022",
+        "dateSchool": "Marzo 2022 a Julio 2022",
         "descriptionSchool": "HTML || CSS || JavaScript || Diseño responsive ||"
     }],
     
