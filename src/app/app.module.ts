@@ -7,7 +7,6 @@ import { HeaderComponent } from './components/header/header.component';
 import { HobbiesYEducacionComponent } from './components/hobbies-y-educacion/hobbies-y-educacion.component';
 import { SkillsComponent } from './components/skills/skills.component';
 import { ProyectosComponent } from './components/proyectos/proyectos.component';
-import { ContactoComponent } from './components/contacto/contacto.component';
 import { PortfolioService } from './servicios/portfolio.service';
 import { HttpClientModule } from '@angular/common/http';
 import { NgCircleProgressModule } from 'ng-circle-progress';
@@ -21,7 +20,6 @@ import { ExperienciaComponent } from './components/experiencia/experiencia.compo
     HobbiesYEducacionComponent,
     SkillsComponent,
     ProyectosComponent,
-    ContactoComponent,
     ExperienciaComponent
   ],
   imports: [

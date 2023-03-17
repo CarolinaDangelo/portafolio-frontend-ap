@@ -1,1 +1,64 @@
-<p>experiencia works!</p>
+<!-- Experiencia -->
+<section class="experiencia" id="experiencia">
+    <div class="editar-datos">
+    <h2 class="titulo-degrade">Experiencia laboral</h2>
+    <!-- ICONO de EDICIÓN -->
+    <i class="edicion fas fa-pencil-alt fa-lg mr-3"></i>
+    <i class="eliminacion fas fa-times fa-lg"></i>
+    </div>
+  
+    <div class="container-experiencia">
+      <div class="col-lg-1 ocultar-col"></div>
+        <div class="row row-edu col-lg-11">
+          <ul class="cursos" *ngFor="let experiencia of experienciaList">
+              <img [src]="experiencia.imgCompany" class="foto-curso" alt="Jobs">
+              <li class="curso-li">
+                <h3 class="curso-nombre">{{experiencia.nameCompany}}</h3>
+                <p class="curso-fecha">{{experiencia.dateJob}}</p>
+                <p class="curso-descripcion">
+                  {{experiencia.descriptionJob}}
+                </p>
+              </li>
+          </ul>
+        </div>
+      </div>
+  </section>
+
+
+
+<!-- Hobbies 
+<section class="container-hobbies" id="hobbies">
+    <h2 class="titulo-degrade">Hobbies</h2>
+      <div class="iconos-hobbies">
+        <div class="row row-icon">
+          <div class="cont-h col-md-1">
+            <i class="hobby-icon fas fa-pencil-alt"></i>
+            <div class="hobby-title">Dibujo</div>
+          </div>
+          <div class="cont-h col-md-1">
+            <i class="hobby-icon fas fa-paint-brush"></i>
+            <div class="hobby-title">Pintura</div>
+          </div>
+          <div class="cont-h col-md-1">
+            <i class="hobby-icon fas fa-music"></i>
+            <div class="hobby-title">Música</div>
+          </div>
+          <div class="cont-h col-md-1">
+            <i class="hobby-icon fas fa-gamepad"></i>
+            <div class="hobby-title">Juegos</div>
+          </div>
+          <div class="cont-h col-md-1">
+            <i class="hobby-icon fas fa-star"></i>
+            <div class="hobby-title">Astrología</div>
+          </div>
+          <div class="cont-h col-md-1">
+            <i class="hobby-icon fas fa-heart"></i>
+            <div class="hobby-title">Tarot</div>
+          </div>
+          <div class="cont-h col-md-1">
+            <i class="hobby-icon fas fa-dumbbell"></i>
+            <div class="hobby-title">Ejercicio</div>
+          </div>
+        </div>
+      </div>
+</section>-->
