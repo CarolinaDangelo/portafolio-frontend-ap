@@ -4,10 +4,10 @@
     "ocupation": "Desarrolladora web Full Stack",
     "ubication": "Rosario, Argentina",
     "sobreMi": "Hola y bienvenido/a a mi portafolio! Soy una apasionada por el arte en todos los sentidos, amo el dibujo, la pintura y el diseño gráfico. Me considero una persona muy creativa y curiosa, siempre estoy aprendiendo algo nuevo. Llegué a interesarme por la programación luego de estar 2 años aventurandome en el marketing digital, aprendiendo habilidades tecnológicas volcadas al crecimiento en línea. Descubrí que la programación es una actividad que disfruto y me motiva a seguir aprendiendo.",
-    
+
     "experiencia": [{
         "imgCompany": "../assets/img/RumboMistico.jpg",
-        "nameCompany": "Rumbo Místico (www.rumbomistico.com)",
+        "nameCompany": "Rumbo Místico (rumbomistico.com)",
         "dateJob": "Enero 2021 a la fecha",
         "descriptionJob": "Marketing digital | Community Manager | Diseño gráfico | Redacción de artículos | Optimización para motores de búsqueda (SEO)"
     }],
@@ -126,10 +126,10 @@
     {
         "imgProyecto": "http",
         "nameProyecto": "Portafolio",
-        "description": "Este portafolio es el proyecto final a presentar en 'Argentina Programa', un curso de programación Full Stack brindado por el estado. Fuimos incorporando distintas tecnologías hasta lograr este resultado.",
-        "tecnologias": "HTML | CSS | JS | ANGULAR | JAVA",
-        "verRepositorio": "#",
-        "verDemo": "#"
+        "description": "Este portafolio es el proyecto final de 'Argentina Programa', un curso de programación Full Stack brindado por el gobierno Argentino. Fuimos incorporando distintas tecnologías hasta lograr este resultado.",
+        "tecnologias": "HTML | CSS | BOOTSTRAP | ANGULAR | SQL | JAVA | SPRINGBOOT",
+        "verRepositorio": "https://github.com/CarolinaDangelo/portafolio-frontend-ap/tree/master",
+        "verDemo": "https://portafolio-frontend-ap.web.app"
     }],
     
     "achivements": [{
