@@ -39,68 +39,52 @@
     
     "hardSkills": [{
         "nameSkill": "HTML5",
-        "progress": "90%",
-        "width": "'width: 90%'"
+        "percent": "90",
+        "progress": "90%"
     },
     {
         "nameSkill": "CSS3",
+        "percent": "80",
         "progress": "80%"
     },
     {
         "nameSkill": "JavaScript",
-        "progress": "55%"
-    },
-    {
-        "nameSkill": "BootStrap",
-        "progress": "60%"
-    },
-    {
-        "nameSkill": "GIT",
-        "progress": "70%"
-    },
-    {
-        "nameSkill": "TypeScript",
+        "percent": "50",
         "progress": "50%"
     },
     {
+        "nameSkill": "BootStrap",
+        "percent": "65",
+        "progress": "65%"
+    },
+    {
+        "nameSkill": "GIT",
+        "percent": "70",
+        "progress": "70%"
+    },
+    {
         "nameSkill": "Angular",
+        "percent": "50",
         "progress": "50%"
     },
     {
         "nameSkill": "JAVA",
-        "progress": "40%"
-    },
-    {
-        "nameSkill": "MySQL",
-        "progress": "45%"
-    },
-    {
-        "nameSkill": "PHP",
-        "progress": "30%"
-    },
-    {
-        "nameSkill": "SpringBoot",
+        "percent": "35",
         "progress": "35%"
     },
     {
-        "nameSkill": "Wordpress/Elementor",
-        "progress": "85%"
-    },
-    {
         "nameSkill": "Photoshop",
+        "percent": "80",
         "progress": "80%"
     },
     {
-        "nameSkill": "PaintToolSAI",
+        "nameSkill": "Wordpress",
+        "percent": "85",
         "progress": "85%"
-    },
-    {
-        "nameSkill": "Filmora9",
-        "progress": "70%"
     }],
     
     "proyectos": [{
-        "imgProyecto": "http",
+        "imgProyecto": "../assets/img/encriptador.jpg",
         "nameProyecto": "Encriptador de Texto",
         "description": "Este encriptador fue un desafío de Alura Latam, el objetivo era crear una aplicación que encripte textos, con el fin de intercambiar mensajes secretos con otras personas, también se puede desencriptar los mensajes.",
         "tecnologias": "HTML | CSS | JS",
@@ -108,7 +92,7 @@
         "verDemo": "https://carolinadangelo.github.io/Encriptador-desencriptador/"
     },
     {
-        "imgProyecto": "http",
+        "imgProyecto": "../assets/img/juegodelahorcado.jpg",
         "nameProyecto": "Juego del Ahorcado",
         "description": "El clásico juego del ahorcado fue el segundo desafío de Alura Latam, el objetivo es elegir las letras correctas para formar la palabra oculta. Este juego contiene nombres de animales y el de un ser extraño.",
         "tecnologias": "HTML | CSS | JS",
@@ -116,7 +100,7 @@
         "verDemo": "https://carolinadangelo.github.io/juegodelahorcado/"
     },
     {
-        "imgProyecto": "http",
+        "imgProyecto": "../assets/img/alurageek.jpg",
         "nameProyecto": "AluraGeek E-commerce",
         "description": "Esta es una tienda virtual de productos para gamers y fanáticos de algunos personajes. Fue otro desafío de Alura Latam en el cual debíamos practicar todo lo aprendido hasta el momento.",
         "tecnologias": "HTML | CSS | JS",
@@ -124,7 +108,7 @@
         "verDemo": "https://carolinadangelo.github.io/AluraGeek/"
     },
     {
-        "imgProyecto": "http",
+        "imgProyecto": "../assets/img/portafolio.jpg",
         "nameProyecto": "Portafolio",
         "description": "Este portafolio es el proyecto final de 'Argentina Programa', un curso de programación Full Stack brindado por el gobierno Argentino. Fuimos incorporando distintas tecnologías hasta lograr este resultado.",
         "tecnologias": "HTML | CSS | BOOTSTRAP | ANGULAR | SQL | JAVA | SPRINGBOOT",

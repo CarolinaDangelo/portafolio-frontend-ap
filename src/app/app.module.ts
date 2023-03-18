@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
@@ -11,6 +10,7 @@ import { PortfolioService } from './servicios/portfolio.service';
 import { HttpClientModule } from '@angular/common/http';
 import { NgCircleProgressModule } from 'ng-circle-progress';
 import { ExperienciaComponent } from './components/experiencia/experiencia.component';
+import { SoftskillsComponent } from './components/softskills/softskills.component';
 
 
 @NgModule({
@@ -20,7 +20,8 @@ import { ExperienciaComponent } from './components/experiencia/experiencia.compo
     EducacionComponent,
     SkillsComponent,
     ProyectosComponent,
-    ExperienciaComponent
+    ExperienciaComponent,
+    SoftskillsComponent
   ],
   imports: [
     BrowserModule,

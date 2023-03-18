@@ -1,5 +1,5 @@
 <!--Hard y Soft Skills-->
-<div class="row skills-container" id="hardskills">
+<section class="skills-container" id="hardskills">
   <div class="editar-datos"> 
   <h2 class="titulo-degrade">Hard Skills</h2>
     <!-- ICONO de EDICIÓN -->
@@ -9,17 +9,17 @@
   <div class="skill-section">
   <!-- 1er FILA -->
     <div class="row">
-      <div class="col-4">
-        <div class="inline-circle">
+        <div class="inline-circle col-sm-6 col-md-4 col-lg-4 d-flex flex-column align-items-center my-3" 
+        *ngFor="let hardSkills of skillsAdd">
           <circle-progress
-            [percent]="90"
+            [percent]="hardSkills.percent"
             [radius]="80"
-            [title]="'HTML5'"
+            [title]= "hardSkills.nameSkill"
             [titleColor]="'#ffffff'"
             [titleFontWeight]="'600'"
             [titleFontSize]="'20px'"
             [showUnits]="false"
-            [subtitle]="'90%'"
+            [subtitle]="hardSkills.progress"
             [subtitleColor]="'#ffffff'"
             [subtitleFontSize]="'14px'"
             [outerStrokeWidth]="16"
@@ -31,242 +31,5 @@
           ></circle-progress>
         </div>
       </div>
-
-      <div class="col-4">
-        <div class="inline-circle">
-          <circle-progress
-            [percent]="80"
-            [radius]="80"
-            [title]="'CSS3'"
-            [titleColor]="'#ffffff'"
-            [titleFontWeight]="'600'"
-            [titleFontSize]="'20px'"
-            [showUnits]="false"
-            [subtitle]="'80%'"
-            [subtitleColor]="'#ffffff'"
-            [subtitleFontSize]="'14px'"
-            [outerStrokeWidth]="16"
-            [innerStrokeWidth]="4"
-            [outerStrokeColor]="'rgb(133, 96, 146)'"
-            [innerStrokeColor]="'#6fb0d8'"
-            [animation]="false"
-            [animationDuration]="400"
-          ></circle-progress>
-        </div>
-      </div>
-
-      <div class="col-4">
-        <div class="inline-circle">
-          <circle-progress
-            [percent]="50"
-            [radius]="80"
-            [title]="'JavaScript'"
-            [titleColor]="'#ffffff'"
-            [titleFontWeight]="'600'"
-            [titleFontSize]="'20px'"
-            [showUnits]="false"
-            [subtitle]="'50%'"
-            [subtitleColor]="'#ffffff'"
-            [subtitleFontSize]="'14px'"
-            [outerStrokeWidth]="16"
-            [innerStrokeWidth]="4"
-            [outerStrokeColor]="'rgb(133, 96, 146)'"
-            [innerStrokeColor]="'#6fb0d8'"
-            [animation]="false"
-            [animationDuration]="400"
-          ></circle-progress>
-        </div>
-      </div>
-    </div>
-
-<!-- 2da FILA -->
-    <div class="row">
-      <div class="col-4">
-        <div class="inline-circle">
-          <circle-progress
-            [percent]="65"
-            [radius]="80"
-            [title]="'Bootstrap'"
-            [titleColor]="'#ffffff'"
-            [titleFontWeight]="'600'"
-            [titleFontSize]="'20px'"
-            [showUnits]="false"
-            [subtitle]="'65%'"
-            [subtitleColor]="'#ffffff'"
-            [subtitleFontSize]="'14px'"
-            [outerStrokeWidth]="16"
-            [innerStrokeWidth]="4"
-            [outerStrokeColor]="'rgb(133, 96, 146)'"
-            [innerStrokeColor]="'#6fb0d8'"
-            [animation]="false"
-            [animationDuration]="400"
-          ></circle-progress>
-        </div>
-      </div>
-
-      <div class="col-4">
-        <div class="inline-circle">
-          <circle-progress
-            [percent]="70"
-            [radius]="80"
-            [title]="'GIT'"
-            [titleColor]="'#ffffff'"
-            [titleFontWeight]="'600'"
-            [titleFontSize]="'20px'"
-            [showUnits]="false"
-            [subtitle]="'70%'"
-            [subtitleColor]="'#ffffff'"
-            [subtitleFontSize]="'14px'"
-            [outerStrokeWidth]="16"
-            [innerStrokeWidth]="4"
-            [outerStrokeColor]="'rgb(133, 96, 146)'"
-            [innerStrokeColor]="'#6fb0d8'"
-            [animation]="false"
-            [animationDuration]="400"
-          ></circle-progress>
-        </div>
-      </div>
-
-      <div class="col-4">
-        <div class="inline-circle">
-          <circle-progress
-            [percent]="50"
-            [radius]="80"
-            [title]="'Angular'"
-            [titleColor]="'#ffffff'"
-            [titleFontWeight]="'600'"
-            [titleFontSize]="'20px'"
-            [showUnits]="false"
-            [subtitle]="'50%'"
-            [subtitleColor]="'#ffffff'"
-            [subtitleFontSize]="'14px'"
-            [outerStrokeWidth]="16"
-            [innerStrokeWidth]="4"
-            [outerStrokeColor]="'rgb(133, 96, 146)'"
-            [innerStrokeColor]="'#6fb0d8'"
-            [animation]="false"
-            [animationDuration]="400"
-          ></circle-progress>
-        </div>
-      </div>
-    </div>
-<!-- 3er FILA -->
-    <div class="row">
-      <div class="col-4">
-        <div class="inline-circle">
-          <circle-progress
-            [percent]="35"
-            [radius]="80"
-            [title]="'JAVA'"
-            [titleColor]="'#ffffff'"
-            [titleFontWeight]="'600'"
-            [titleFontSize]="'20px'"
-            [showUnits]="false"
-            [subtitle]="'35%'"
-            [subtitleColor]="'#ffffff'"
-            [subtitleFontSize]="'14px'"
-            [outerStrokeWidth]="16"
-            [innerStrokeWidth]="4"
-            [outerStrokeColor]="'rgb(133, 96, 146)'"
-            [innerStrokeColor]="'#6fb0d8'"
-            [animation]="false"
-            [animationDuration]="400"
-          ></circle-progress>
-        </div>
-      </div>
-
-      <div class="col-4">
-        <div class="inline-circle">
-          <circle-progress
-            [percent]="80"
-            [radius]="80"
-            [title]="'Photoshop'"
-            [titleColor]="'#ffffff'"
-            [titleFontWeight]="'600'"
-            [titleFontSize]="'20px'"
-            [showUnits]="false"
-            [subtitle]="'80%'"
-            [subtitleColor]="'#ffffff'"
-            [subtitleFontSize]="'14px'"
-            [outerStrokeWidth]="16"
-            [innerStrokeWidth]="4"
-            [outerStrokeColor]="'rgb(133, 96, 146)'"
-            [innerStrokeColor]="'#6fb0d8'"
-            [animation]="false"
-            [animationDuration]="400"
-          ></circle-progress>
-        </div>
-      </div>
-
-      <div class="col-4">
-        <div class="inline-circle">
-          <circle-progress
-            [percent]="85"
-            [radius]="80"
-            [title]="'Wordpress'"
-            [titleColor]="'#ffffff'"
-            [titleFontWeight]="'600'"
-            [titleFontSize]="'20px'"
-            [showUnits]="false"
-            [subtitle]="'85%'"
-            [subtitleColor]="'#ffffff'"
-            [subtitleFontSize]="'14px'"
-            [outerStrokeWidth]="16"
-            [innerStrokeWidth]="4"
-            [outerStrokeColor]="'rgb(133, 96, 146)'"
-            [innerStrokeColor]="'#6fb0d8'"
-            [animation]="false"
-            [animationDuration]="400"
-          ></circle-progress>
-        </div>
-      </div>
-    </div>
-
-<!-- Soft Skills -->
-<section>
-    <h2 class="titulo-degrade" id="softskills">Soft Skills</h2>
-    <div class="container-soft soft-skills">
-    <div class="row">
-      <div class="col-4 soft">
-        <i class="fas fa-users skill-icon"></i>
-        <p class="skill-title">Trabajo en equipo</p>
-      </div>
-      <div class="col-4 soft">
-        <i class="fas fa-book skill-icon"></i>
-        <p class="skill-title">Aprendizaje constante</p>
-      </div>
-      <div class="col-4 soft">
-        <i class="fas fa-lightbulb skill-icon"></i>
-        <p class="skill-title">Creatividad</p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-4 soft">
-        <i class="fas fa-rocket skill-icon"></i>
-        <p class="skill-title">Proactividad</p>
-      </div>
-      <div class="col-4 soft">
-        <i class="fas fa-tasks skill-icon"></i>
-        <p class="skill-title">Autogestión</p>
-      </div>
-      <div class="col-4 soft">
-        <i class="fas fa-smile skill-icon"></i>
-        <p class="skill-title">Actitud positiva</p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-4 soft">
-        <i class="fas fa-handshake skill-icon"></i>
-        <p class="skill-title">Empatía</p>
-      </div>
-      <div class="col-4 soft">
-        <i class="fas fa-briefcase skill-icon"></i>
-        <p class="skill-title">Productividad</p>
-      </div>
-      <div class="col-4 soft">
-        <i class="fas fa-shield-alt skill-icon"></i>
-        <p class="skill-title">Resiliencia</p>
-      </div>
-    </div>
     </div>
 </section>
