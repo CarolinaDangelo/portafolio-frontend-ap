@@ -112,7 +112,7 @@
         "nameProyecto": "Portafolio",
         "description": "Este portafolio es el proyecto final de 'Argentina Programa', un curso de programación Full Stack brindado por el gobierno Argentino. Fuimos incorporando distintas tecnologías hasta lograr este resultado.",
         "tecnologias": "HTML | CSS | BOOTSTRAP | ANGULAR | SQL | JAVA | SPRINGBOOT",
-        "verRepositorio": "https://github.com/CarolinaDangelo/portafolio-frontend-ap/tree/master",
+        "verRepositorio": "https://github.com/CarolinaDangelo/frontEnd/tree/master",
         "verDemo": "https://portafolio-frontend-ap.web.app"
     }],
     
