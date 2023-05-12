@@ -1,0 +1,76 @@
+.login_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70px;
+    padding-bottom: 100px;
+    background-color: #111111;
+    margin-bottom: 15px;
+    padding: 0 15px 100px 15px;
+}
+
+.titulo-degrade {
+    padding-left: 0;
+}
+
+.text_sesion {
+    font-family: 'Raleway';
+    margin-bottom: 1.6rem;
+    font-size: 18px;
+}
+
+.form_user, .form_password {
+    background-color: #FFFFFF;
+    color: #111;
+    border: none;
+    padding: .8rem;
+    margin-bottom: 1rem;
+    font-family: 'Raleway';
+    font-weight: 450;
+    width: 450px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.form_user:focus, .form_password:focus {
+    outline: none;
+    border: none;
+}
+
+.entrar_btn {
+    color: #ffffff;
+    background-color: rgb(133, 96, 146);;
+    border: none;
+    font-size: 18px;
+    font-family: 'Raleway';
+    font-weight: 600;
+    width: 450px;
+    height: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.entrar_btn:hover {
+    background-color: rgb(103, 72, 114);;
+}
+
+/******************* RESPONSIVE ******************/
+@media only screen and (max-width: 769px) {
+
+    body {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .form_user, .form_password {
+        width: 280px;
+    }
+
+    .entrar_btn {
+        width: 200px;
+    }
+
+    .titulo-degrade {
+        padding-left: 0;
+    }
+}

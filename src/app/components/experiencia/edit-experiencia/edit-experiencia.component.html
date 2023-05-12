@@ -1,0 +1,40 @@
+<header>
+    <!--************** NAV LOGIN **************-->
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#">
+          <img src="../../../assets/img/logo.png" width="100" height="30" alt="Logo" />
+        </a>
+      </nav>
+  
+  <!-- Banner de presentación -->
+  <section>
+      <div class="banner d-flex align-items-center">
+        <div class="container text-center">
+        </div>
+  
+  <!-- Imágen de perfil 
+        <div class="banner">
+          <div class="profile-image">
+              <img src="img/carolinadangelo.jpg" alt="Perfil">
+          </div>
+        </div>-->
+      </div>
+<body>
+<div class="login_container" *ngIf="expLab">
+    <div class="row">
+        <div>
+            <form (ngSubmit)="onUpdate()" novalidate #f="ngForm">
+                <div class="form-group">
+                    <label for="nombreE" class="name_exp">Nombre de la Empresa</label>
+                    <input type="text" class="form-control" id="nombreE" name="nombreE" [(ngModel)]="expLab.nombreE" required />
+                </div>
+                <div class="form-group">
+                    <label for="descripcionE" class="desc_exp">Descripción de las tareas</label>
+                    <input type="text" class="form-control" id="descripcionE" name="descripcionE" [(ngModel)]="expLab.descripcionE" required />
+                </div>
+                <button class="btn btn-primary btn_agregar">Editar experiencia</button>
+            </form>
+        </div>
+    </div>
+</div>
+</body>

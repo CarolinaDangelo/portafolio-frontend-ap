@@ -1,0 +1,41 @@
+.login_container {
+    width: 100%;
+    align-items: center;
+    padding-top: 70px;
+    padding-bottom: 100px;
+    background-color: #111111;
+    margin-bottom: 15px;
+    border-radius: 0 0 5px 5px;
+}
+
+.name_exp {
+    color: #fff;
+    font-family: 'Raleway';
+    font-weight: 600;
+}
+
+.desc_exp {
+    color: #fff;
+    font-family: 'Raleway';
+    font-weight: 600;
+    padding-top: 15px;
+}
+
+.form_exp {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.btn_agregar {
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+/******************* RESPONSIVE ******************/
+@media only screen and (max-width: 769px) {
+
+.form_exp {
+    padding: 0;
+
+}
+}

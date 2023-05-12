@@ -1,0 +1,42 @@
+<header>
+    <!--************** NAV LOGIN **************-->
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#">
+          <img src="../../../assets/img/logo.png" width="100" height="30" alt="Logo" />
+        </a>
+      </nav>
+  
+  <!-- Banner de presentación -->
+  <section>
+    <body>
+      <div class="banner d-flex align-items-center">
+        <div class="container text-center">
+        </div>
+  
+  <!-- Imágen de perfil 
+        <div class="banner">
+          <div class="profile-image">
+              <img src="img/carolinadangelo.jpg" alt="Perfil">
+          </div>
+        </div>-->
+      </div>
+        <!--************** LOGIN **************-->
+    <section class="login_container">
+        <section class="iniciar_sesion">
+            <p class="titulo-degrade">Iniciar sesión</p>
+        </section>
+        <form #f="ngForm" (ngSubmit)="onLogin()" novalidate>
+            <div class="login_usuario">
+                <input class="form_user" type="text" id="nombreUsuario" name="nombreUsuario" placeholder="Escribe tu usuario..." [(ngModel)]="nombreUsuario" required /> 
+                <label for="nombreUsuario"></label>
+            </div>
+            <div class="login_contrasenia">
+                <input class="form_password" type="password" id="password" name="password" placeholder="Escribe tu contraseña..." [(ngModel)]="password" required /> 
+                <label for="password"></label>
+            </div>
+            <div class="login_btn-entrar">
+              <a href="index.html"><button type="submit" class="entrar_btn">INGRESAR</button></a>
+            </div>
+        </form>
+    </section>
+</body>

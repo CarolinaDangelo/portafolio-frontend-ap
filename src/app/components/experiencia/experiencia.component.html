@@ -1,25 +1,59 @@
 <!-- Experiencia -->
 <section class="experiencia" id="experiencia">
-    <div class="editar-datos">
-    <h2 class="titulo-degrade">Experiencia laboral</h2>
-    <!-- ICONO de EDICIÓN -->
-    <i class="edicion fas fa-pencil-alt fa-lg mr-3"></i>
-    <i class="eliminacion fas fa-times fa-lg"></i>
-    </div>
+  <div class="editar-datos">
+  <h2 class="titulo-degrade">Experiencia laboral</h2>
+  <!-- ICONO de EDICIÓN 
+  <i class="edicion fas fa-pencil-alt fa-lg mr-3"></i>
+  <i class="eliminacion fas fa-times fa-lg"></i>-->
+  </div>
   
-    <div class="container-experiencia">
-      <div class="col-lg-1 ocultar-col"></div>
-        <div class="row row-edu col-lg-11">
-          <ul class="cursos" *ngFor="let experiencia of experienciaList">
-              <img [src]="experiencia.imgCompany" class="foto-curso" alt="Jobs">
-              <li class="curso-li">
-                <h3 class="curso-nombre">{{experiencia.nameCompany}}</h3>
-                <p class="curso-fecha">{{experiencia.dateJob}}</p>
-                <p class="curso-descripcion">
-                  {{experiencia.descriptionJob}}
-                </p>
-              </li>
-          </ul>
-        </div>
+  <div class="col-lg-2">
+    <button type="button" class="btn-nueva btn btn-success"
+    routerLink="/nuevaexp"
+    *ngIf="isLogged">
+    <i class="bi bi-plus-lg"></i>
+      AGREGAR
+    </button>
+  </div>
+
+  <div class="col-lg-1"></div>
+  <div class="col-lg-11">
+    <table class="table">
+      <tbody>
+        <tr *ngFor="let Experiencia of expe">
+          <td class="name_exp">{{Experiencia.nombreE}}</td>
+          <td class="desc_exp">{{Experiencia.descripcionE}}</td>
+          <td *ngIf="isLogged">
+            <button type="button" 
+            class="btn-nueva btn btn-light" 
+            routerLink="/editexp/{{Experiencia.id}}">
+            <i class="bi bi-pencil-fill"></i> EDITAR</button>
+            </td>
+          <td *ngIf="isLogged">
+            <button type="button" 
+            class="btn-nueva btn btn-danger" 
+            (click)="delete(Experiencia.id)">
+            <i class="bi bi-trash-fill"></i> BORRAR</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- CODIGO ANTIGUO -->
+  <!--<div class="container-experiencia">
+    <div class="col-lg-1 ocultar-col"></div>
+      <div class="row row-edu col-lg-11">
+        <ul class="cursos" *ngFor="let experiencia of expe">
+            <img [src]="experiencia.imgCompany" class="foto-curso" alt="Jobs">
+            <li class="curso-li">
+              <h3 class="curso-nombre">{{experiencia.nameCompany}}</h3>
+              <p class="curso-fecha">{{experiencia.dateJob}}</p>
+              <p class="curso-descripcion">
+                {{experiencia.descriptionJob}}
+              </p>
+            </li>
+        </ul>
       </div>
-  </section>
+    </div>-->
+</section>
